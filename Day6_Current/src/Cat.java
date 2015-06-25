@@ -1,7 +1,7 @@
 
 public class Cat extends Mammal {
-	public Cat(){
-		super();
+	public Cat(String s){
+		super(s);
 	}
 	
 	@Override

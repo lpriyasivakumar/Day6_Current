@@ -1,7 +1,8 @@
 
 public class Mammal extends Animal {
 	
-	public Mammal(){
+	public Mammal(String name){
+		super(name);
 		this.numberOfLegs = 4;
 	}
 	

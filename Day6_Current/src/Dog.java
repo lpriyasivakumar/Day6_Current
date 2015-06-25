@@ -1,9 +1,11 @@
 public class Dog extends Mammal{
 	
-	public Dog(){
-		super();
+	public Dog(String name){
+		super(name);
 	}
 	
+	
+
 	@Override
 	public void speak(){
 		System.out.println("Bow...wow");
